@@ -6,15 +6,11 @@
 # (Optional) Build a simple integration test
 
 setup:
-	# Create python virtualenv & source it
+	#Create python virtualenv & source it
 	#source ~/.devops/bin /activate
 	python3 -m venv ~/.devops
 	source ~/.devops/bin/activate
 
-WORKDIR /app
-
-# Copy source code to working directory
-COPY . app.py /app/	
 
 install:
 	# This should be run from inside a virtualenv
