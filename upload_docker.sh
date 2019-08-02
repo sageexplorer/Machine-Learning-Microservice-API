@@ -9,6 +9,7 @@
 
 # Step 2:  
 # Authenticate & tag
+cat ~/my_password.txt | docker login --username sage007 --password-stdin 
 echo "Docker ID and Image: $dockerpath"
 docker tag housing $dockerpath
 
