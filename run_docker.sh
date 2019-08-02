@@ -8,8 +8,10 @@ docker build --tag=housing .
 
 # Step 2: 
 # List docker images
-docker image ls
+#docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -it housing bash 
+#docker run -it housing bash 
+docker run -p 80:80 housing
+
