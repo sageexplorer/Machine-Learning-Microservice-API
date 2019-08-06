@@ -1,5 +1,9 @@
 [![CircleCI](https://circleci.com/gh/sageexplorer/Machine-Learning-Microservice-API.svg?style=svg)](https://circleci.com/gh/sageexplorer/Machine-Learning-Microservice-API)
 
+## ABOUT:
+
+This project uses docker, and Kubernetes to build a Microservice API in python virtual environment. The app predicts housing prices usign sklearn. Python App is a simple flask app that accepts data in an api, and sends response. 
+
 
 ## Setup the Environment
 
