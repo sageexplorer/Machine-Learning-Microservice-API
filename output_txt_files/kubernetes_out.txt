@@ -1,1 +1,4 @@
-<paste log output from Kubernetes-mediated prediction, here>
+NAME                      READY   STATUS    RESTARTS   AGE
+housing-9d75cdcf6-mbwm8   1/1     Running   0          4h3m
+Forwarding from 127.0.0.1:8888 -> 80
+Forwarding from [::1]:8888 -> 80
